@@ -2,7 +2,7 @@
 
 # recursive implementation of Fibonacci with Time complexity of O(n) and Space complexity of O(n)
 
-<code>def fib(N : int, a: int = 0,b: int = 1,sum: int = 1 ) -> int:</code>
+<code>def fib(N : int, a: int = 0,b: int = 1,sum: int = 1 ) -> int:
     #check if it reached the base condition
     if (N != 0) :
         
@@ -19,3 +19,4 @@
         
 #prints first Nth number of the Fibonacci
 fib(500)
+</code>
